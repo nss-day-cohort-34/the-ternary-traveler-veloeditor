@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>The Ternary Traveler</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="titleText">The Ternary Traveler</h1>
+    </header>
+    <section id="form__container">
+        <div id="tasksFormField">
+            <input type="hidden" id="poiID" value="">
+            <fieldset>
+                <legend>Point of Interest:</legend>
+                <input type="text" name="poi" id="interest_name" size="50" placeholder="Enter your place here"
+                    autofocus>
+            </fieldset>
+            <fieldset>
+                <legend>Description:</legend>
+                <input type="text" name="description" id="description" size="50"
+                    placeholder="Enter your description here">
+            </fieldset>
+            <fieldset>
+                <legend>Cost:</legend>
+                <input type="text" name="costs" id="costs" size="20" placeholder="Enter your costs here">
+            </fieldset>
+            </fieldset>
+            <fieldset>
+                <legend>Review:</legend>
+                <input type="text" name="costs" id="review" size="50" placeholder="Enter your review here">
+            </fieldset>
+            <fieldset>
+                <legend>Location:</legend>
+                <label for="countryOrigin">Country</label>
+                <select name="countryOrigin" id="countryOrigin">
+                    <option value="" disabled selected>Select the location</option>
+                    <option value="1">Italy</option>
+                    <option value="2">Switzerland</option>
+                    <option value="3">France</option>
+                </select>
+            </fieldset>
+            <fieldset><input type="submit" id="submit_button" value="Add">
+            </fieldset>
+    </section>
+
+    <article id="cards__container"></article>
+<script type="text/javascript" src="bundle.js"></script></body>
+
+</html>
