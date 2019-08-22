@@ -1,30 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@veloeditor 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
- 
-1
-0 0 nss-day-cohort-34/the-ternary-traveler-veloeditor
-generated from nashville-software-school/the-ternary-traveler
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Security  Insights  Settings
-Initial commit
-
- master
-@stevebrownlee
-stevebrownlee committed yesterday
-0 parents commit 80eb78606d3e8c8efc40fd1c717883a954541adc
-Showing  with 96 additions and 0 deletions.
-  96  README.md 
-@@ -0,0 +1,96 @@
 # The Ternary Traveler
 
 You've been asked to put together a simple application for your client, Mira. Mira is a travel blogger who creates both videos and writes blog posts for her website. She tries to travel to three destinations per month, spending a week in each place. Then she takes a week off before starting the whole cycle again. She has requested a single page application where she can add points of interests for the next set of three places she will be visiting. She would like to be able to add a new point of interest in one of her destinations so she can have a list of places she needs to visit when she travels. As she visits each point of interest, she would like to be able to edit the point of interest by adjusting the cost and adding a review. She has also asked to be able to delete points of interest from her list. But to ensure she does not accidentally delete anything, she would like an alert to to confirm the delete action.
